@@ -46,6 +46,7 @@ CyanoBLAST is written in Python3.8 and requires NumPy, Pandas, openpyxl and bios
   
       -v, --version                 Shows program's version number and exit  
   
-References: Baers LL, Breckels LM, Mills LA, Gatto L, Deery MJ, Stevens TJ, et al. Proteome Mapping of a Cyanobacterium Reveals Distinct Compartment Organization and Cell-Dispersed Metabolism. Plant Physiol. 2019 Dec 1;181(4):1721–38.
+###### References: 
+Baers LL, Breckels LM, Mills LA, Gatto L, Deery MJ, Stevens TJ, et al. Proteome Mapping of a Cyanobacterium Reveals Distinct Compartment Organization and Cell-Dispersed Metabolism. Plant Physiol. 2019 Dec 1;181(4):1721–38.
 
 Mills LA, McCormick AJ, Lea-Smith DJ. Current knowledge and recent advances in understanding metabolism of the model cyanobacterium Synechocystis sp. PCC 6803. Biosci Rep. 2020 Apr 3; 40(BSR20193325).
