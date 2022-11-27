@@ -23,7 +23,7 @@ CyanoBLAST -i -c -o [-n] [-e] [-r] [-s] [-h] [-v]
   -o, --output                  Name of output file (*.xlsx)
 
 ###### Optional:
-  -n, --new_database  			Flag to direct CyanoBlast to build a new database with the -i/--input \*.faa file
+  -n, --new_database  			    Flag to direct CyanoBlast to build a new database with the -i/--input \*.faa file
                               	and path specified by -np/--new_database_path
  
    -np, --new_database_path     fPath to directory where the database should be built.
@@ -40,12 +40,8 @@ CyanoBLAST -i -c -o [-n] [-e] [-r] [-s] [-h] [-v]
 ###### Options:
   -h, --help                    shows help message and exit
   
-  -v, --version                 show program's version number and exit
-
-
-
-
-
+  -v, --version                 show program's version number and exit    
+  
 References: Baers LL, Breckels LM, Mills LA, Gatto L, Deery MJ, Stevens TJ, et al. Proteome Mapping of a Cyanobacterium Reveals Distinct Compartment Organization and Cell-Dispersed Metabolism. Plant Physiol. 2019 Dec 1;181(4):1721–38.
 
 Mills LA, McCormick AJ, Lea-Smith DJ. Current knowledge and recent advances in understanding metabolism of the model cyanobacterium Synechocystis sp. PCC 6803. Biosci Rep. 2020 Apr 3; 40(BSR20193325).
