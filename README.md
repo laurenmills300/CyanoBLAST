@@ -3,7 +3,7 @@
 A tool for analysing the proteome of newly discovered cyanobacterial species against the well documented, model cyanobacteria *Synechocystis* sp. PCC 6803 (PCC 6803). The analysis incorporates the use of the National Centre for Biotechnology Information’s (NCBI) basic local alignment search tool (BLAST). In this example, we use the newly discovered, fast-growing strain *Synechococcus* sp. PCC 11901 for comparison against PCC 6803.
 
 
-To compare against the well-documented PCC 6803 species, the input data was based upon the findings from Baers *et al.* (2019). A modified version of Supplementary Table 3 (ST3) from this paper was created and formed the starting point for all the input data required for PCC 6803’s proteome information. ADD FILE NAME OF COMPRESSED TABLE (ComparisonData.npz)
+To compare against the well-documented PCC 6803 species, the input data was based upon the findings from Baers *et al.* (2019). A modified version of Supplementary Table 3 from this paper was created and formed the starting point for all the input data required for PCC 6803’s proteome information. ADD FILE NAME OF COMPRESSED TABLE (ComparisonData.npz)
 
 
 A second input file was then taken from Supplementary Tables 1, 3 or 4 found in Mills *et al.*, these three tables are split into different class of PCC 6803’s proteome: central metabolism and transport (CentMet); characterised proteins not involved in central metabolism (Known); uncharacterised proteins (Unkown); as well as an option to compare agains all proteins (All). This requires input from the user under -c --category (see below).
@@ -39,6 +39,7 @@ CyanoBLAST -i -c -o [-n] [-e] [-r] [-s] [-h] [-v]
 
 ###### Options:
   -h, --help                    shows help message and exit
+  
   -v, --version                 show program's version number and exit
 
 
