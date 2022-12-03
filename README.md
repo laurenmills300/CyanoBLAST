@@ -9,7 +9,7 @@ To compare against the well-documented PCC 6803 species, the input data was base
 A second input file was then taken from Supplementary Tables 1, 3 or 4 found in Mills *et al.*, these three tables are split into different class of PCC 6803’s proteome: central metabolism and transport (centmet); characterised proteins not involved in central metabolism (known); uncharacterised proteins (unkown); as well as an option to compare agains all proteins (all). This requires input from the user under -c --category (see below).
 
 ## Requirements
-CyanoBLAST is written in Python3.8 and requires NumPy, Pandas, openpyxl and bioservices (version > 1.10) modules.
+CyanoBLAST is written in Python3.8 and requires NumPy, Pandas, openpyxl and bioservices (version 1.10 +) modules.
 
 
 ## Outline of CyanoBLAST.py
